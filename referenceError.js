@@ -23,6 +23,8 @@ function add(a, b){
 // console.log('sum:', sum);
 const add2 = (a, b) => a+b;
 
+
+// we can't use any property outside which is inside of a function
 function doSomething(){
     const res = 55;
 };
